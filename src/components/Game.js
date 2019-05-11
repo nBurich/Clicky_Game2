@@ -1,35 +1,8 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
-
-  render() {
-    return (
-      <header>
-        <div className="container-fluid">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-3 title">
-              Clicky Emojis
-            </div>
-            <div className="col-md-6 text-center">
-              {this.props.status}
-            </div>
-            <div className="col-md-3 score">
-              Score: {this.props.score} | Top Score: {this.props.topScore}
-            </div>
-          </div>
-        </div>
-      </header>
-    );
-  }
-}
-
-export default Header;
-
-import React, { Component } from 'react';
-
 class GameArea extends Component {
   render() {
-    const emojis = this.props.emoji.map((item) =>
+    const cats = this.props.cats.map((item) =>
       <img className="thumb img-thumbnail"
         key={item.id}
         data-id={item.id}
@@ -48,7 +21,7 @@ class GameArea extends Component {
         </div>
         <div className="row d-flex justify-content-center">
           <div className="image-container col-12 d-flex justify-content-center">
-            {emojis}
+            {cats}
           </div>
         </div>
       </main>

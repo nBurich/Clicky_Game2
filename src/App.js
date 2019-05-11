@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
-import Header from './components/Game';
+import Header from './components/Header';
 import GameArea from './components/Game';
 import data from "./data";
+import './scss/App.scss';
 
 class App extends Component {
   state = {
