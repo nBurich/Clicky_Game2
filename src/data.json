@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "image": "../build/images/cat1.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "../build/images/cat2.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "../build/images/cat3.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "../build/images/cat4.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "../build/images/cat5.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "../build/images/cat6.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "../build/images/cat7.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "../build/images/cat8.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "../build/images/cat9.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "../build/images/cat10.jpg",
+      "clicked": false
+    }
+]
